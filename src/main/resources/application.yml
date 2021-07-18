@@ -1,0 +1,9 @@
+lgging:
+  file: logs/application-debug.log
+  pattern:
+    console: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+    file: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+  level:
+    org.springframework.web: ERROR
+    com.project: DEBUG
+    org.hibernate: ERROR
